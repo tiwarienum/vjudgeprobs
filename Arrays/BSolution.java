@@ -19,6 +19,6 @@ public class BSolution {
             if (arr[i] < 0 || arr[i] > Math.pow(10, 18))
                 return;
         }
-       Main.Reverse(arr,n);
+       BSolution.Reverse(arr,n);
     }
 }
